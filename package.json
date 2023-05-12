@@ -12,6 +12,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@types/fhir": "^0.0.37",
+    "fhir": "^4.11.2",
+    "fhirclient": "^2.5.2",
     "pinia": "^2.0.35",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"

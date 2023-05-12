@@ -7,6 +7,12 @@
     <script src="/node_modules/fhirclient/build/fhir-client.min.js"></script>
 </head>
 <body>
+    <script>
+        FHIR.oauth2.authorize({
+            clientId: "racoon_app",
+            scope: "launch openid fhirUser patient/*.read",
+    });
+    </script>
     
 </body>
 </html>
