@@ -3,7 +3,5 @@ import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+Hier werden wir gleich unsere SMART App bauen.
 </template>

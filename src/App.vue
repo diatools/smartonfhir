@@ -4,19 +4,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+  <h1>RACOON App 1</h1>
+  <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1334x10000:format=jpg/path/s950128bad6f9c58b/image/i6a9505076ec0b948/version/1603821140/image.jpg" width="200">
   <RouterView />
 </template>
 
