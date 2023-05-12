@@ -15,6 +15,9 @@ const patientStore = usePatientStore();
     </tr>
     <tr v-for="patient in patientStore.patients">
       <td>{{ patient.name[0].family }}</td>
+      <td>{{ patient.name[0].given[0] }}</td>
+      <td>{{ patient.gender }}</td>
+      <td>{{ patient.birthDate }}</td>
     </tr>
   </table>
 </template>
